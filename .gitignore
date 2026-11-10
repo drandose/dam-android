@@ -1,0 +1,14 @@
+# Material de clase y entregas
+apuntes/
+entregas/
+
+# Archivos que genera Android Studio
+.idea/
+.gradle/
+.kotlin/
+build/
+local.properties
+*.iml
+
+# macOS
+.DS_Store
