@@ -18,3 +18,4 @@ Están hechas en Java con Android Studio y con API 26 como versión mínima. Cad
 | 10 | SelectorVisual | 06/11/2026 | Spinner con imágenes (BaseAdapter) |
 | 11 | TresEnRaya | 10/11/2026 | TableLayout (tres en raya) |
 | 12 | NavegacionActivity | 13/11/2026 | Intent (cambio de Activity al pulsar una imagen) |
+| 13 | IntentQuiz | 13/11/2026 | Intent entre varias Activities (quiz con puntuación) |

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="24dp"
+    tools:context=".QuizActivity">
+
+    <TextView
+        android:id="@+id/tituloSistema"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:text="Android"
+        android:textColor="#2F5FAF"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/logoSistema"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="12dp"
+        android:contentDescription="Icono del sistema"
+        android:src="@drawable/movil" />
+
+    <TextView
+        android:id="@+id/textoPregunta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Pregunta"
+        android:textColor="#2F5FAF"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btnOpcion1"
+        style="@style/Widget.Material3.Button.OutlinedButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:onClick="responder"
+        android:text="Opción 1"
+        android:textColor="#2F5FAF"
+        app:strokeColor="#2F5FAF" />
+
+    <Button
+        android:id="@+id/btnOpcion2"
+        style="@style/Widget.Material3.Button.OutlinedButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:onClick="responder"
+        android:text="Opción 2"
+        android:textColor="#2F5FAF"
+        app:strokeColor="#2F5FAF" />
+
+    <Button
+        android:id="@+id/btnOpcion3"
+        style="@style/Widget.Material3.Button.OutlinedButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:onClick="responder"
+        android:text="Opción 3"
+        android:textColor="#2F5FAF"
+        app:strokeColor="#2F5FAF" />
+
+    <TextView
+        android:id="@+id/textoPuntuacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:textColor="#2F5FAF"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnVolver"
+        style="@style/Widget.Material3.Button.OutlinedButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:onClick="volverAlMenu"
+        android:text="Volver al menú"
+        android:textColor="#2F5FAF"
+        app:strokeColor="#2F5FAF" />
+</LinearLayout>

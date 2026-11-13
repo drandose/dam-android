@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="24dp"
+    tools:context=".AplicacionActivity">
+
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:gravity="center"
+        android:text="Software de Aplicación"
+        android:textColor="#2F5FAF"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/descripcion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="El software de aplicación permite realizar tareas específicas para el usuario, como escribir documentos, editar imágenes o navegar por internet."
+        android:textColor="#2F5FAF"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:id="@+id/imagenAplicacion"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_marginTop="24dp"
+        android:contentDescription="Ventana de una aplicación"
+        android:src="@drawable/aplicacion" />
+
+    <Button
+        android:id="@+id/btnVolver"
+        style="@style/Widget.Material3.Button.OutlinedButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:onClick="volverAlMenu"
+        android:text="Volver al menú"
+        android:textColor="#2F5FAF"
+        app:strokeColor="#2F5FAF" />
+</LinearLayout>

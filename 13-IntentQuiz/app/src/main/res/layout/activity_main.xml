@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="24dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:gravity="center"
+        android:text="Bienvenido al Mundo del Software"
+        android:textColor="#2F5FAF"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imagenSoftware"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_marginTop="24dp"
+        android:contentDescription="Ordenador con un engranaje"
+        android:src="@drawable/software" />
+
+    <Button
+        android:id="@+id/btnSistema"
+        style="@style/Widget.Material3.Button.OutlinedButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:onClick="abrirSistema"
+        android:text="Software de Sistema"
+        android:textColor="#2F5FAF"
+        app:strokeColor="#2F5FAF" />
+
+    <Button
+        android:id="@+id/btnAplicacion"
+        style="@style/Widget.Material3.Button.OutlinedButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:onClick="abrirAplicacion"
+        android:text="Software de Aplicación"
+        android:textColor="#2F5FAF"
+        app:strokeColor="#2F5FAF" />
+</LinearLayout>

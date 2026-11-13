@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="24dp"
+    tools:context=".SistemaActivity">
+
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:gravity="center"
+        android:text="Software de Sistema"
+        android:textColor="#2F5FAF"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/descripcion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="El software de sistema controla y coordina el hardware del ordenador, proporcionando una base para que otros programas funcionen correctamente."
+        android:textColor="#2F5FAF"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/btnAndroid"
+        style="@style/Widget.Material3.Button.OutlinedButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:onClick="abrirQuiz"
+        android:text="Android OS"
+        android:textColor="#2F5FAF"
+        app:strokeColor="#2F5FAF" />
+
+    <Button
+        android:id="@+id/btnWindows"
+        style="@style/Widget.Material3.Button.OutlinedButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:onClick="abrirQuiz"
+        android:text="Windows"
+        android:textColor="#2F5FAF"
+        app:strokeColor="#2F5FAF" />
+
+    <Button
+        android:id="@+id/btnLinux"
+        style="@style/Widget.Material3.Button.OutlinedButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:onClick="abrirQuiz"
+        android:text="Linux"
+        android:textColor="#2F5FAF"
+        app:strokeColor="#2F5FAF" />
+
+    <Button
+        android:id="@+id/btnVolver"
+        style="@style/Widget.Material3.Button.OutlinedButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:onClick="volverAlMenu"
+        android:text="Volver al menú"
+        android:textColor="#2F5FAF"
+        app:strokeColor="#2F5FAF" />
+</LinearLayout>
