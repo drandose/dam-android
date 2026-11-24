@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    tools:ignore="MissingConstraints">
+
+    <View
+        android:id="@+id/zonaRosco"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/letraActual"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="A"
+        android:textColor="#00008B"
+        android:textSize="64sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@id/zonaRosco"
+        app:layout_constraintEnd_toEndOf="@id/zonaRosco"
+        app:layout_constraintStart_toStartOf="@id/zonaRosco"
+        app:layout_constraintTop_toTopOf="@id/zonaRosco" />
+
+    <TextView
+        android:id="@+id/circuloA"
+        android:layout_width="34dp"
+        android:layout_height="34dp"
+        android:background="@drawable/circulo_azul"
+        android:gravity="center"
+        android:text="A"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        app:layout_constraintCircle="@id/letraActual"
+        app:layout_constraintCircleAngle="0"
+        app:layout_constraintCircleRadius="130dp" />
+
+    <TextView
+        android:id="@+id/circuloB"
+        android:layout_width="34dp"
+        android:layout_height="34dp"
+        android:background="@drawable/circulo_azul"
+        android:gravity="center"
+        android:text="B"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        app:layout_constraintCircle="@id/letraActual"
+        app:layout_constraintCircleAngle="17"
+        app:layout_constraintCircleRadius="130dp" />
+
+    <TextView
+        android:id="@+id/circuloC"
+        android:layout_width="34dp"
+        android:layout_height="34dp"
+        android:background="@drawable/circulo_azul"
+        android:gravity="center"
+        android:text="C"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        app:layout_constraintCircle="@id/letraActual"
+        app:layout_constraintCircleAngle="34"
+        app:layout_constraintCircleRadius="130dp" />
+
+    <TextView
+        android:id="@+id/circuloD"
+        android:layout_width="34dp"
+        android:layout_height="34dp"
+        android:background="@drawable/circulo_azul"
+        android:gravity="center"
+        android:text="D"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        app:layout_constraintCircle="@id/letraActual"
+        app:layout_constraintCircleAngle="51"
+        app:layout_constraintCircleRadius="130dp" />
+
+    <TextView
+        android:id="@+id/circuloE"
+        android:layout_width="34dp"
+        android:layout_height="34dp"
+        android:background="@drawable/circulo_azul"
+        android:gravity="center"
+        android:text="E"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        app:layout_constraintCircle="@id/letraActual"
+        app:layout_constraintCircleAngle="69"
+        app:layout_constraintCircleRadius="130dp" />
+
+    <TextView
+        android:id="@+id/circuloF"
+        android:layout_width="34dp"
+        android:layout_height="34dp"
+        android:background="@drawable/circulo_azul"
+        android:gravity="center"
+        android:text="F"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        app:layout_constraintCircle="@id/letraActual"
+        app:layout_constraintCircleAngle="86"
+        app:layout_constraintCircleRadius="130dp" />
+
+    <TextView
+        android:id="@+id/circuloG"
+        android:layout_width="34dp"
+        android:layout_height="34dp"
+        android:background="@drawable/circulo_azul"
+        android:gravity="center"
+        android:text="G"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        app:layout_constraintCircle="@id/letraActual"
+        app:layout_constraintCircleAngle="103"
+        app:layout_constraintCircleRadius="130dp" />
+
+    <TextView
+        android:id="@+id/circuloH"
+        android:layout_width="34dp"
+        android:layout_height="34dp"
+        android:background="@drawable/circulo_azul"
+        android:gravity="center"
+        android:text="H"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        app:layout_constraintCircle="@id/letraActual"
+        app:layout_constraintCircleAngle="120"
+        app:layout_constraintCircleRadius="130dp" />
+
+    <TextView
+        android:id="@+id/circuloI"
+        android:layout_width="34dp"
+        android:layout_height="34dp"
+        android:background="@drawable/circulo_azul"
+        android:gravity="center"
+        android:text="I"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        app:layout_constraintCircle="@id/letraActual"
+        app:layout_constraintCircleAngle="137"
+        app:layout_constraintCircleRadius="130dp" />
+
+    <TextView
+        android:id="@+id/circuloJ"
+        android:layout_width="34dp"
+        android:layout_height="34dp"
+        android:background="@drawable/circulo_azul"
+        android:gravity="center"
+        android:text="J"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        app:layout_constraintCircle="@id/letraActual"
+        app:layout_constraintCircleAngle="154"
+        app:layout_constraintCircleRadius="130dp" />
+
+    <TextView
+        android:id="@+id/circuloL"
+        android:layout_width="34dp"
+        android:layout_height="34dp"
+        android:background="@drawable/circulo_azul"
+        android:gravity="center"
+        android:text="L"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        app:layout_constraintCircle="@id/letraActual"
+        app:layout_constraintCircleAngle="171"
+        app:layout_constraintCircleRadius="130dp" />
+
+    <TextView
+        android:id="@+id/circuloM"
+        android:layout_width="34dp"
+        android:layout_height="34dp"
+        android:background="@drawable/circulo_azul"
+        android:gravity="center"
+        android:text="M"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        app:layout_constraintCircle="@id/letraActual"
+        app:layout_constraintCircleAngle="189"
+        app:layout_constraintCircleRadius="130dp" />
+
+    <TextView
+        android:id="@+id/circuloN"
+        android:layout_width="34dp"
+        android:layout_height="34dp"
+        android:background="@drawable/circulo_azul"
+        android:gravity="center"
+        android:text="N"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        app:layout_constraintCircle="@id/letraActual"
+        app:layout_constraintCircleAngle="206"
+        app:layout_constraintCircleRadius="130dp" />
+
+    <TextView
+        android:id="@+id/circuloO"
+        android:layout_width="34dp"
+        android:layout_height="34dp"
+        android:background="@drawable/circulo_azul"
+        android:gravity="center"
+        android:text="O"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        app:layout_constraintCircle="@id/letraActual"
+        app:layout_constraintCircleAngle="223"
+        app:layout_constraintCircleRadius="130dp" />
+
+    <TextView
+        android:id="@+id/circuloP"
+        android:layout_width="34dp"
+        android:layout_height="34dp"
+        android:background="@drawable/circulo_azul"
+        android:gravity="center"
+        android:text="P"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        app:layout_constraintCircle="@id/letraActual"
+        app:layout_constraintCircleAngle="240"
+        app:layout_constraintCircleRadius="130dp" />
+
+    <TextView
+        android:id="@+id/circuloR"
+        android:layout_width="34dp"
+        android:layout_height="34dp"
+        android:background="@drawable/circulo_azul"
+        android:gravity="center"
+        android:text="R"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        app:layout_constraintCircle="@id/letraActual"
+        app:layout_constraintCircleAngle="257"
+        app:layout_constraintCircleRadius="130dp" />
+
+    <TextView
+        android:id="@+id/circuloS"
+        android:layout_width="34dp"
+        android:layout_height="34dp"
+        android:background="@drawable/circulo_azul"
+        android:gravity="center"
+        android:text="S"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        app:layout_constraintCircle="@id/letraActual"
+        app:layout_constraintCircleAngle="274"
+        app:layout_constraintCircleRadius="130dp" />
+
+    <TextView
+        android:id="@+id/circuloT"
+        android:layout_width="34dp"
+        android:layout_height="34dp"
+        android:background="@drawable/circulo_azul"
+        android:gravity="center"
+        android:text="T"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        app:layout_constraintCircle="@id/letraActual"
+        app:layout_constraintCircleAngle="291"
+        app:layout_constraintCircleRadius="130dp" />
+
+    <TextView
+        android:id="@+id/circuloU"
+        android:layout_width="34dp"
+        android:layout_height="34dp"
+        android:background="@drawable/circulo_azul"
+        android:gravity="center"
+        android:text="U"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        app:layout_constraintCircle="@id/letraActual"
+        app:layout_constraintCircleAngle="309"
+        app:layout_constraintCircleRadius="130dp" />
+
+    <TextView
+        android:id="@+id/circuloV"
+        android:layout_width="34dp"
+        android:layout_height="34dp"
+        android:background="@drawable/circulo_azul"
+        android:gravity="center"
+        android:text="V"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        app:layout_constraintCircle="@id/letraActual"
+        app:layout_constraintCircleAngle="326"
+        app:layout_constraintCircleRadius="130dp" />
+
+    <TextView
+        android:id="@+id/circuloZ"
+        android:layout_width="34dp"
+        android:layout_height="34dp"
+        android:background="@drawable/circulo_azul"
+        android:gravity="center"
+        android:text="Z"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        app:layout_constraintCircle="@id/letraActual"
+        app:layout_constraintCircleAngle="343"
+        app:layout_constraintCircleRadius="130dp" />
+
+    <TextView
+        android:id="@+id/textoPregunta"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="16dp"
+        android:text="Pregunta"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/zonaRosco" />
+
+    <EditText
+        android:id="@+id/cajaRespuesta"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:hint="Escribe tu respuesta"
+        android:inputType="textNoSuggestions"
+        android:minHeight="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textoPregunta" />
+
+    <Button
+        android:id="@+id/btnComprobar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:onClick="comprobar"
+        android:text="Comprobar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/cajaRespuesta" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

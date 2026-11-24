@@ -20,3 +20,4 @@ Están hechas en Java con Android Studio y con API 26 como versión mínima. Cad
 | 12 | NavegacionActivity | 13/11/2026 | Intent (cambio de Activity al pulsar una imagen) |
 | 13 | IntentQuiz | 13/11/2026 | Intent entre varias Activities (quiz con puntuación) |
 | 14 | IntentsImplicitos | 17/11/2026 | Intents implícitos (web, teléfono, correo, mapa, galería y cámara) |
+| 15 | Pasapalabra | 24/11/2026 | Rosco de preguntas con resultado en una segunda Activity |
